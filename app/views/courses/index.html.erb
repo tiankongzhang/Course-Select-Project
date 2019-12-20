@@ -23,6 +23,8 @@
               <th>课程名称</th>
               <th>课时/学分</th>
               <th>考试方式</th>
+              <th>课程教室</th>
+              <th>上课时间</th>
               <th>主讲教师</th>
             </tr>
 
@@ -34,6 +36,8 @@
                   <td><%= course.name %></td>
                   <td><%= course.credit %></td>
                   <td><%= course.exam_type %></td>
+                  <td><%= course.class_room %></td>
+                  <td><%= course.course_time %></td>
                   <td><%= course.teacher.name %></td>
 
                   <% if teacher_logged_in? %>

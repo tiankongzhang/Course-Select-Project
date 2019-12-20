@@ -1,4 +1,4 @@
-source 'https://gems.ruby-china.org'
+source 'https://gems.ruby-china.com'
 
 gem 'bootstrap-sass', '~> 3.3.7'
 # Use ActiveModel has_secure_password
@@ -42,6 +42,10 @@ gem 'simplecov', :require => false, :group => :test
 
 # for postgresql
 gem 'pg', '~> 0.18.4'
+
+#add veri-code
+gem 'easy_captcha', git: 'https://github.com/phatworx/easy_captcha.git'
+gem 'rmagick'
 
 # gem 'bcrypt', '~> 3.1.7'
 
